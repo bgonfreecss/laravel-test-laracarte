@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- BASIC HEAD INFO -->
-        <title>Laracarte</title>
+        <title>{{ pageTitle($title ?? '') }}</title>
 
 
         <!-- CSS INCLUDE -->
