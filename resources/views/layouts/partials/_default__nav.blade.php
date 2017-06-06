@@ -1,4 +1,3 @@
-<!-- Static navbar -->
 <nav class="navbar navbar-default navbar-static-top">
   <div class="container">
     <div class="navbar-header">
@@ -26,7 +25,7 @@
             <li><a href="https://larachat.co" target="_blank">Larachat</a></li>
           </ul>
         </li>
-        <li><a href="#">Contact</a></li>
+        <li class="{{ activeRoute('contactPath') }}" ><a href="{{ route('contactPath') }}">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Login</a></li>
