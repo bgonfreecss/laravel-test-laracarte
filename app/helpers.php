@@ -4,7 +4,7 @@ if (!function_exists('pageTitle'))
 {
 	function pageTitle($title)
 	{
-		$defaultTitle = 'Laracarte - List of artisans';
+		$defaultTitle = config('app.name').' - List of artisans';
 		if ($title == '') 
 		{
 			return $defaultTitle;
