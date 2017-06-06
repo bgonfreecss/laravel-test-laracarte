@@ -11,12 +11,12 @@
 
 
         <!-- CSS INCLUDE -->
-        @include('layouts.partials.__css')
+        @include('layouts.partials._default__css')
     </head>
     <body>
 
     	<!-- STATIC NAVBAR -->
-    	@include('layouts.partials.__nav')
+    	@include('layouts.partials._default__nav')
 
 
     	<!-- PAGE CONTENT  -->
@@ -24,9 +24,9 @@
 
 
     	<!-- FOOTER -->
-    	@include('layouts.partials.__footer')
+    	@include('layouts.partials._default__footer')
 
     	<!-- SCRIPT INCLUDE -->
-        @include('layouts.partials.__script')
+        @include('layouts.partials._default__script')
     </body>
 </html>
