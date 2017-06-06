@@ -16,4 +16,12 @@ if (!function_exists('pageTitle'))
 	}
 }
 
+if (!function_exists('activeRoute'))
+{
+	function activeRoute($route)
+	{	
+		return Route::is($route) ? 'active' : '';
+	}
+}
+
 ?>

@@ -8,12 +8,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="{{ route('root_path')}}">Laracarte</a>
+      <a class="navbar-brand" href="{{ route('rootPath')}}">Laracarte</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li><a href="{{ route('root_path')}}">Home</a></li>
-        <li><a href="{{ route('about_path')}}">About</a></li>
+        <li class="{{ activeRoute('rootPath') }}" ><a href="{{ route('rootPath')}}">Home</a></li>
+        <li class="{{ activeRoute('aboutPath') }}"><a href="{{ route('aboutPath')}}">About</a></li>
         <li><a href="#">Artisan</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Planet <span class="caret"></span></a>
