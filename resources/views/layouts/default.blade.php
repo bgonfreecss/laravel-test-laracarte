@@ -28,5 +28,8 @@
 
     	<!-- SCRIPT INCLUDE -->
         @include('layouts.partials._default__script')
+
+        <!-- FLASHY IMPORT -->
+        @include('flashy::message')
     </body>
 </html>
